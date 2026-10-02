@@ -1,7 +1,7 @@
 // Everything on the site comes from this file. Edit here, nothing else needs to change.
 
 export const profile = {
-  name: "Abe Kebe",
+  name: "Lamesgnew Awdro",
   role: "Software developer",
   location: "Addis Ababa, Ethiopia",
   status: "Open to internships", // set to "" to hide
