@@ -123,3 +123,15 @@ a:hover { color: var(--accent); text-decoration-color: var(--accent); }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; }
 }
+
+/* ---------- Dark mode (follows the system setting) ---------- */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f1218;
+    --ink: #eef0f4;
+    --muted: #9aa3b2;
+    --line: #252a35;
+    --accent: #8394ff;
+    --ok: #3ccf86;
+  }
+}
