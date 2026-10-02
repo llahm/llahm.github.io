@@ -1,3 +1,10 @@
+import { profile } from "./data/profile.js";
+import Hero from "./components/Hero.jsx";
+
 export default function App() {
-  return <h1>Abe Kebe</h1>;
+  return (
+    <main className="page">
+      <Hero profile={profile} />
+    </main>
+  );
 }
