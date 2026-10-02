@@ -19,15 +19,15 @@ export const profile = {
       description:
         "A React app built from reusable components with client-side state. Data is stored in the browser as JSON so it persists between visits.",
       stack: ["React", "JavaScript", "Fetch API", "Web Storage", "JSON"],
-      repo: "", // e.g. "https://github.com/llahm/campus-connect"
+      repo: "https://github.com/llahm/IBT-BOOT/tree/14547475177031eba5b17dec0139929d45c10b97/Module-3-react/campus_connect",
       live: "",
     },
     {
-      name: "Flight-Matrix-Reshaper",
+      name: "Flight-Matrix-Formatter",
       description:
         "A web app that reshapes and processes flight-matrix data, with a browser interface for working with the results.",
       stack: ["Flask", "JavaScript", "HTML", "CSS"],
-      repo: "",
+      repo: "https://github.com/llahm/Flight-matrix-formatter",
       live: "",
     },
   ],
