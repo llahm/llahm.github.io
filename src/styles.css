@@ -103,3 +103,11 @@ a:hover { color: var(--accent); text-decoration-color: var(--accent); }
 .timeline h3 { font-size: 1.0625rem; font-weight: 600; }
 .timeline-head .meta { white-space: nowrap; }
 .timeline-note { margin-top: 6px; max-width: 36em; }
+
+/* ---------- Footer ---------- */
+.footer {
+  display: grid;
+  gap: 8px;
+  padding: 40px 0 72px;
+  border-top: 1px solid var(--line);
+}
