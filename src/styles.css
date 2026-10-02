@@ -96,3 +96,10 @@ a:hover { color: var(--accent); text-decoration-color: var(--accent); }
 .skills div { display: grid; grid-template-columns: 110px 1fr; gap: 16px; }
 .skills dt { font-weight: 600; }
 .skills dd { color: var(--muted); }
+
+/* ---------- Experience and education ---------- */
+.timeline { display: grid; gap: 28px; }
+.timeline-head { display: flex; justify-content: space-between; gap: 16px; align-items: baseline; }
+.timeline h3 { font-size: 1.0625rem; font-weight: 600; }
+.timeline-head .meta { white-space: nowrap; }
+.timeline-note { margin-top: 6px; max-width: 36em; }
