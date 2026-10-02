@@ -111,3 +111,15 @@ a:hover { color: var(--accent); text-decoration-color: var(--accent); }
   padding: 40px 0 72px;
   border-top: 1px solid var(--line);
 }
+
+/* ---------- Small screens ---------- */
+@media (max-width: 640px) {
+  body { font-size: 1rem; }
+  .section { grid-template-columns: 1fr; gap: 12px; padding: 32px 0; }
+  .skills div { grid-template-columns: 1fr; gap: 0; }
+  .timeline-head { flex-direction: column; gap: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; }
+}
